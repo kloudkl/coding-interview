@@ -14,10 +14,13 @@ References
 ```bash
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 ```
+
 2. Then install gcc 4.8 and g++ 4.8:
 ```bash
-sudo apt-get update; sudo apt-get install gcc-4.8 g++-4.8
+sudo apt-get update
+sudo apt-get install gcc-4.8 g++-4.8
 ```
+
 3. Once installed, run following commands one by one to use gcc 4.8 instead of previous version.
 ```bash
 sudo update-alternatives --remove-all gcc 
@@ -27,6 +30,7 @@ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 20
 sudo update-alternatives --config gcc
 sudo update-alternatives --config g++
 ```
+
 4. Now you have the gcc 4.8 with c++11 complete feature in your system. Check out by:
 ```bash
 gcc --version
