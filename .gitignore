@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+/Debug
+/CMakeFiles
+/ci_unittest
+/cmake_install.cmake
+/CMakeCache.txt
+/Makefile
